@@ -34,9 +34,25 @@ a {
 }
 
 .metadata {
-    width: 70%;
+    width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+    .metadata {
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .main-img {
+        width: 220px;
+    }
 }
 
 .tagline {
