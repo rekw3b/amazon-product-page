@@ -1,0 +1,56 @@
+/* General styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    color: #565959;
+    text-decoration: none;
+}
+
+/* Classes */
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    width: 300px;
+}
+
+.ratings {
+    width: 8em;
+}
+
+.container {
+    display: flex;
+}
+
+.metadata {
+    width: 70%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.tagline {
+    font-weight: bold;
+}
+
+.breadcrumb {
+    color: #565959;
+    font-size: 1em;
+}
+
+/* IDs */
+
+#author {
+    color: #007185;
+    text-decoration: underline;
+}
